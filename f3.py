@@ -18,3 +18,5 @@ class Cutils:
 if __name__ == '__main__':
     x = Cutils('ls')
     print(x.output())
+    y = Cutils('ls -lrt')
+    print(y.output())
