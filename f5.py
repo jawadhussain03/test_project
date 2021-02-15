@@ -1,5 +1,6 @@
 import f1
-x = f1.Person('Jawad','Hussain','Developer')
+
+x = f1.Person('Jawad', 'Hussain', 'Developer')
 print("========================Using instance method=============================")
 print(x.fullname)
 print(x.details())
