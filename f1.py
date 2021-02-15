@@ -1,3 +1,6 @@
+import datetime
+
+
 class Person:
     def __init__(self, first, last, role):
         self.first = first
@@ -18,6 +21,10 @@ class Person:
     def Example(cls, String):
         first, last, role = String.split('-')
         return cls(first, last, role)
+
+    @staticmethod
+    def Display_message(param):
+        return param
 
 
 if __name__ == '__main__':
@@ -42,4 +49,6 @@ if __name__ == '__main__':
     print(p3.fullname)
     print(p3.role)
     print(p3.details())
+    print('========================================================================================')
+    print(p3.Display_message(datetime.datetime.now()))
     print('========================================================================================')

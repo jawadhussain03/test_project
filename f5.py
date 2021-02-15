@@ -8,3 +8,4 @@ print("========================Using class method===============================
 y = f1.Person.Example('Jawad-Hussain-Developer')
 print(y.fullname)
 print(y.details())
+
