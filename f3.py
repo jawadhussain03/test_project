@@ -14,7 +14,6 @@ class Cutils:
         else:
             return (err)
 
-
 if __name__ == '__main__':
     x = Cutils('ls')
     print(x.output())
